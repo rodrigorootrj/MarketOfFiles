@@ -1,0 +1,3 @@
+#Busca os arquivos no diretório local e os organiza por tamanho.
+find . -type f  -exec du -h {} +| sort -r -h
+#Relativo find ../Doc/Files -type f  -exec du -h {} +| sort -r -h
